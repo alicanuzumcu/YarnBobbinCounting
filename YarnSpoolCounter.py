@@ -5,20 +5,19 @@ import numpy as np
 # YOLOv11 model path
 model = ultralytics.YOLO('best.pt')
 
-# Video kaynağını aç
 cap = cv2.VideoCapture("original.mp4")  
 
-# İlk frame'i okuyarak video çözünürlüğünü alın
+# Get the width and height by reading the first frame
 ret, frame = cap.read()
 if not ret:
     print("Unsuccessful reading!!!.")
     exit()
 
-# Videonun çözünürlüğünü elde et
+
 height, width = frame.shape[:2]
 
 # Opertions to save frames as mp4 file
-fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # mp4 format
+fourcc = cv2.VideoWriter_fourcc(*'mp4v')  
 out = cv2.VideoWriter('Output.mp4', fourcc, 30.0, (width, height))  
 
 total = set()
