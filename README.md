@@ -16,13 +16,11 @@ This project is a real-time system for counting yarn bobbins in a video stream u
 
 ## Video Demonstration
 
-Watch the project demonstration below:
+Watch the project demonstration below by clicking the video:
 
 [![Bobbin Counter System Demonstration](https://img.youtube.com/vi/1GKLDwXSotw/0.jpg)](https://youtube.com/shorts/1GKLDwXSotw?si=hpT_g8YflVLOkp_u "Bobbin Counter System Demonstration")
 
-### Play the video here:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1GKLDwXSotw" frameborder="0" allowfullscreen></iframe>
 
 ---
 
